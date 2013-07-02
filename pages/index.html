@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block content %}
+	
+	<div id="posterwall" class="posters">
+	{% for img in posters %}
+		<div class="poster-mod">
+			<div class="poster front" data-url="{{ STATIC_URL }}/img/posters/{{ img }}" style="background-image: url({{ STATIC_URL }}/img/posters/{{ img }})">&nbsp;</div>
+		</div>
+	{% endfor %}
+	</div>
+
+	<div id="#extras">
+		{% for img in extras %}
+		<span class="extra" data-url="{{ STATIC_URL }}/img/posters/{{ img }}"></span>
+		{% endfor %}
+	</div>
+
+{% endblock %}
