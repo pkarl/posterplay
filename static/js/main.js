@@ -64,5 +64,4 @@ $(document).ready(function() {
 			$(this).removeClass('back').addClass('front').css('position', 'block');
 		});
 	}
-
 });
