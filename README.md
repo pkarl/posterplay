@@ -1,3 +1,6 @@
+->![poster-demo-gif](https://f.cloud.github.com/assets/8388/739605/69c372a8-e35e-11e2-8e03-349c17b7c771.gif)<-
+
+
 # posterplay
 
 I used poster photos from the [National Poster Retrospecticus](http://nationalposterretrospecticus.com/) to simulate an OSX screen saver. This uses [packery](http://packery.metafizzy.co/) (to little effect), and [jquery.transit](http://ricostacruz.com/jquery.transit/).
