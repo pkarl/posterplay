@@ -18,7 +18,7 @@ def preBuildPage(site, page, context, data):
     Add the list of posts to every page context so we can
     access them from wherever on the site.
     """
-    context['posters'] = os.listdir('../static/img/posters')[:-2]
-    context['extras'] = os.listdir('../static/img/posters')[-2:]
+    context['posters'] = os.listdir('../static/img/posters')[:-4]
+    context['extras'] = os.listdir('../static/img/posters')[-4:]
 
     return context, data
