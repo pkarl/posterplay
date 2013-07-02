@@ -10,6 +10,10 @@ This is a [cactus](https://github.com/koenbok/Cactus) site. If you don't have ca
 sudo easy_install cactus
 ```
 
-## Run it.
+## Demo
+
+See the demo up on github.io at [pkarl.github.io/posterplay](http://pkarl.github.io/posterplay/).
+
+## Run it yourself
 
 With cactus installed, navigate to the project root and type `cactus serve`
