@@ -12,7 +12,7 @@ sudo easy_install cactus
 
 ## Demo
 
-See the demo up on github.io at [pkarl.github.io/posterplay](http://pkarl.github.io/posterplay/).
+See [the demo up on S3](http://posterplay.s3-website-us-east-1.amazonaws.com).
 
 ## Run it yourself
 

@@ -14,10 +14,14 @@ $(document).ready(function() {
 		gutter: 0
 	});
 
-	setInterval(flipRandomPoster, 400);
+	setInterval(flipRandomPoster, 200);
 
 	function flipRandomPoster() {
-		flipPoster(getRandomPosterMod());
+		var randoPoster = getRandomPosterMod();
+		if(randoPoster === undefined) {
+			return;
+		}
+		flipPoster(randoPoster);
 	}
 
 	function getRandomPosterMod() {
