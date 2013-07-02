@@ -28,3 +28,22 @@ body {
 	display: none;
 	-webkit-transform: rotateY(180deg)
 }
+
+@media screen and (max-width: 400px) {
+
+	.poster-mod { 
+		height: 60px;
+		width: 40px;
+		overflow: hidden;
+	}
+		.poster {
+			height: 60px;
+			width: 40px;
+			overflow: hidden;
+
+			background-position: center center;
+			background-size: 60px auto;
+			-webkit-backface-visibility: hidden;
+		}
+	
+}
