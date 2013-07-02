@@ -14,7 +14,7 @@ $(document).ready(function() {
 		gutter: 0
 	});
 
-	setInterval(flipRandomPoster, 200);
+	setInterval(flipRandomPoster, 400);
 
 	function flipRandomPoster() {
 		flipPoster(getRandomPosterMod());
