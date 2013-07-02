@@ -1,8 +1,4 @@
-<p align="center">
-  ![poster-demo-gif](https://f.cloud.github.com/assets/8388/739605/69c372a8-e35e-11e2-8e03-349c17b7c771.gif)
-</p>
-
-
+![poster-demo-gif](https://f.cloud.github.com/assets/8388/739605/69c372a8-e35e-11e2-8e03-349c17b7c771.gif)
 
 # posterplay
 
